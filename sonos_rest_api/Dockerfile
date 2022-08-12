@@ -3,4 +3,3 @@ USER root
 RUN rm -rf /app/presets
 RUN ln -sf /config/sonos_rest_api/presets /app/presets
 USER node
-

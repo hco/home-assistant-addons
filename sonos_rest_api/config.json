@@ -6,13 +6,14 @@
   "description": "Exposes a REST API for Sonos. Allows you to define sonos presets via JSON, that can be activated using the REST api.",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "application",
-  "boot": "auto",
-  "options": {},
-  "schema": {},
+
   "map": ["config"],
   "webui": "http://[HOST]:[PORT:5005]/",
   "ports": {
     "5005/tcp": 5005
+  },
+  "ports_description": {
+    "5005/tcp": "REST API"
   },
   "host_network": true
 }

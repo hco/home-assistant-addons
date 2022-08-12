@@ -1,0 +1,8 @@
+# https://developers.home-assistant.io/docs/add-ons/configuration#add-on-dockerfile
+labels:
+  org.opencontainers.image.title: "Home Assistant Add-on: Sonos REST Api"
+  org.opencontainers.image.description: "Exposes a REST API for Sonos. Allows you to define sonos presets via JSON, that can be activated using the REST api."
+  org.opencontainers.image.source: "https://github.com/hco/home-assistant-addons"
+  org.opencontainers.image.licenses: "MIT"
+args:
+  TEMPIO_VERSION: "2021.09.0"

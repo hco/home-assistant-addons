@@ -1,9 +1,9 @@
 {
   "name": "Sonos REST API",
-  "version": "0.19",
+  "version": "0.20",
   "slug": "sonos-rest-api",
   "description": "Exposes a REST API for Sonos. Allows you to define sonos presets via JSON, that can be activated using the REST api.",
-  "arch": ["armv7", "amd64"],
+  "arch": ["armv7", "amd64", "aarch64"],
   "map": ["config"],
   "webui": "http://[HOST]:[PORT:5005]/",
   "ports": {

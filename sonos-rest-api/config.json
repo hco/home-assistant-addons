@@ -1,7 +1,7 @@
 {
   "name": "Sonos REST API",
   "image": "sonos-rest-api",
-  "version": "0.22",
+  "version": "0.23",
   "slug": "sonos-rest-api",
   "description": "Exposes a REST API for Sonos. Allows you to define sonos presets via JSON, that can be activated using the REST api.",
   "arch": ["armv7", "amd64", "aarch64"],
